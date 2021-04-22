@@ -32,6 +32,10 @@ $(call inherit-product-if-exists, vendor/google/taimen/taimen-vendor.mk)
 TARGET_SCREEN_HEIGHT := 2880
 TARGET_SCREEN_WIDTH := 1440
 
+# EXTHMUI GAPPS
+EXTHM_GAPPS := true
+TARGET_GAPPS_ARCH := arm64
+
 PRODUCT_MANUFACTURER := Google
 PRODUCT_BRAND := google
 PRODUCT_NAME := exthm_taimen
